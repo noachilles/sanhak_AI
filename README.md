@@ -3,7 +3,7 @@
 
 **팀 구성**: 5인팀
 **역할**: 머신러닝(Machine Learning) 모델 학습 및 데이터 전처리, 인코딩  
-**stacks**: ```python3``` ```sci-kit learn``` ```Flask``` ```RestfulAPI``` ````React```  
+**stacks**: ```python3``` ```sci-kit learn``` ```Flask``` ```RestfulAPI``` ```React```  
 
 ## 기획의도
 * 교통사고에 대해 보험사 대상 보험 사기 가능성 예측 모델을 구현하고, 비교 분석해 최적화 및 웹 사이트 제작으로 서비스 제공  
@@ -14,10 +14,13 @@
 * Kaggle Data(https://www.kaggle.com/datasets/mykeysid10/insurance-claims-fraud-detection/data)  
 
 ### 데이터 전처리  
-file: sanhak_ai.ipynb
+file: sanhak_ai.ipynb  
+
 **학습 변수 결정**
 * 39개의 변수 중 필요하지 않다고 생각되는 변수는 회의를 통해 임의 결정하고, (그림1. 그림2.)과 같이 시각화로 교차검증해 비율 확인 후 확정  
-![그림1. <Policy State-Fraud Reported>](https://github.com/user-attachments/assets/796c7036-6ab3-42ff-aa0f-1c8f34aa3809)
+|<b>A graph displaying three clusters</b>|  
+| :--: |  
+| ![그림1. <Policy State-Fraud Reported>](https://github.com/user-attachments/assets/796c7036-6ab3-42ff-aa0f-1c8f34aa3809)|
 ![그림2. <Policy State-Fraud Reported(Y/N)>](https://github.com/user-attachments/assets/bb50aa5e-ca53-4d6e-9a16-74bfaf025f93)
 
 
@@ -61,7 +64,7 @@ file: sanhak_ai.ipynb
 
 **최종 선택 모델**  
 * 모델 Test 결과를 바탕으로 가장 우수한 성능을 보인 XGBoost를 선택해 활용하고자 함  
-* XGBoost와 CATBoost의 Feature Importance를 기준으로 13개의 변수(기존 39개)를 사용하는 것으로 확정함
+* XGBoost와 CATBoost의 Feature Importance를 기준으로 13개의 변수(기존 39개)를 사용하는 것으로 확정함  
 ** 이는 보험사 입장에서 format에 맞추어 form을 입력해야 하기에 개수를 줄이고자 함  
 ![그림8. 최종 활용 변수](https://github.com/user-attachments/assets/f8c8ddb3-be49-4544-a577-73682caf0864)
 
