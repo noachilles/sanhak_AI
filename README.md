@@ -18,9 +18,8 @@ file: sanhak_ai.ipynb
 
 **학습 변수 결정**
 * 39개의 변수 중 필요하지 않다고 생각되는 변수는 회의를 통해 임의 결정하고, (그림1. 그림2.)과 같이 시각화로 교차검증해 비율 확인 후 확정  
-|<b>A graph displaying three clusters</b>|  
-| :--: |  
-| ![그림1. <Policy State-Fraud Reported>](https://github.com/user-attachments/assets/796c7036-6ab3-42ff-aa0f-1c8f34aa3809)|
+
+![그림1. <Policy State-Fraud Reported>](https://github.com/user-attachments/assets/796c7036-6ab3-42ff-aa0f-1c8f34aa3809)
 ![그림2. <Policy State-Fraud Reported(Y/N)>](https://github.com/user-attachments/assets/bb50aa5e-ca53-4d6e-9a16-74bfaf025f93)
 
 
